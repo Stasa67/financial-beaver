@@ -25,18 +25,20 @@ export default {
   },
   computed: {
     title () {
-      return 'Вы погнались за большим процентом и невнимательно изучили договор, фактический процент оказался меньше'
+      return 'gdfbnknkbv'
     },
     bank: function () {
       return [{
         img: '/bankIcons/Ivanoff.png',
         beaver: true,
         items: this.items1
-      }, {
+      },
+      {
         img: '/bankIcons/Vigoda.png',
         beaver: false,
         items: this.items2
-      }, {
+      },
+      {
         img: '/bankIcons/Sper.png',
         beaver: true,
         items: this.items3
@@ -47,7 +49,8 @@ export default {
       return [
         {
           title: 'прозрачные условия'
-        }, {
+        },
+        {
           title: 'входит в АВС'
         },
         {
@@ -62,7 +65,8 @@ export default {
       return [
         {
           title: 'непрозрачные условия'
-        }, {
+        },
+        {
           title: 'входит в АВС'
         },
         {
@@ -77,7 +81,8 @@ export default {
       return [
         {
           title: 'самые выгодные условия'
-        }, {
+        },
+        {
           title: 'лицензия отозвана'
         },
         {
